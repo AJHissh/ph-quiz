@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Philippine Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3> What is the national animal of the philippines? </h3>
+                    <button class="incorrect">Tarsier</button>
+                    <button class="incorrect">Philippine Eagle</button>
+                    <button class="incorrect">Whale Shark</button>
+                    <button class="correct">Carabao</button>
+                    <button class="incorrect">Milkfish</button>
+                <p class=ChoiceNotif></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What was another name for the EDSA revolution in the philippines in 1986? </h3>
+                <h5>(uppercase answers only)</h5>
+                <form>
+                    <input type="text" class="free-resp">
+                    <input type="submit" class="submit-button" value="Submit">
+                </form>
+                <p class=ChoiceNotifTwo></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="events.js"></script>
+    </body>
+</html>
